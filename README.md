@@ -38,9 +38,7 @@ This project implements a React-based app to display and filter a list of people
 
   - `Navbar`: A navigation bar with links to the HomePage and PeoplePage.
   - `PeopleTable`: Renders the table of people with filters, sorting, and active row highlighting.
-  - `PersonLink`: A component that generates a link for each person, including links for their mother and father.
-  - `NameFilter`: Allows the user to search by name, mother’s name, or father’s name.
-  - `CenturyFilter`: Allows the user to filter by century.
+  - `PeopleFilter`: Allows the user to search by name, mother’s name, or father’s name. Allows the user to filter by century.
   - `NotFoundPage`: Displays the "Page not found" message for non-existing routes.
 
 - **src/pages**:
@@ -102,6 +100,10 @@ This project implements a React-based app to display and filter a list of people
 - **React Router**: For routing and navigation between pages.
 - **Vite**: A modern build tool that provides fast development and production build processes.
 - **GitHub Pages**: For deploying the app.
+
+## Live Demo
+
+You can see the live project on GitHub Pages: [https://anastasiiafedurko.github.io/react_people-table/](https://anastasiiafedurko.github.io/react_people-table/).
 
 ## Conclusion
 
