@@ -20,10 +20,10 @@ createRoot(document.getElementById("root") as HTMLDivElement).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="home" element={<Navigate to="/" />} />
-          <Route index element={<HomePage />} />
+          {/* <Route index element={<HomePage />} />
           <Route path="people">
             <Route path=":slug?" element={<PeoplePage />} />
-          </Route>
+          </Route> */}
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
