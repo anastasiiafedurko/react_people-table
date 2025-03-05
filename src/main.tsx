@@ -18,13 +18,10 @@ createRoot(document.getElementById("root") as HTMLDivElement).render(
   <Router>
     <PeopleProvider>
       <Routes>
-        <Route path="/react_people-table/" element={<App />}>
-          <Route
-            path="/react_people-table/home"
-            element={<Navigate to="/" />}
-          />
+        <Route path="/" element={<App />}>
+          <Route path="home" element={<Navigate to="/" />} />
           <Route index element={<HomePage />} />
-          <Route path="/react_people-table/people">
+          <Route path="people">
             <Route path=":slug?" element={<PeoplePage />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
